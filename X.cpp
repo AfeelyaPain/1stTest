@@ -1,5 +1,3 @@
-//test Git changes
-
 #include <iostream>
 #include <string>
 
@@ -34,3 +32,14 @@ class X
             b = _b;
         }
 };
+
+int main()
+{
+    ptwice(5);
+    X x = X(6,(char*)"twice");
+    cout << x.a <<endl;
+    //x.a = 6;
+    //x.b = "twice";
+    //xtwice(x);
+    return 0;
+}
