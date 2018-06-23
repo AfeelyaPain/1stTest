@@ -35,7 +35,8 @@ class X
 
 int main()
 {
-    ptwice(5);
+    int t = 5;
+    ptwice(t);
     X x = X(6,(char*)"twice");
     cout << x.a <<endl;
     //x.a = 6;
